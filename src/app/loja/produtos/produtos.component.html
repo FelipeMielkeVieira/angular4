@@ -1,3 +1,11 @@
-<p>
-  produtos works!
-</p>
+<div>
+  <button class='botaoVoltar' (click)='voltar()'>Página Inicial</button>
+  <br/>
+  <br/>
+  Lista de Produtos
+  <br/>
+  <div class='divbotao' *ngFor='let produto of listaProdutos'>
+    Produto de id: {{produto}}
+    <button class='botao' (click)='abrirProduto(produto)'>Acessar</button>
+  </div>
+</div>

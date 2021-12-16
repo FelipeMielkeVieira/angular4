@@ -1,0 +1,25 @@
+.botaoVoltar {
+    padding: 12px;
+    border: 1px black solid;
+    border-radius: 8px;
+}
+
+.botaoVoltar:hover {
+    cursor: pointer;
+    color: red;
+    transition: all 0.5s;
+}
+
+.botao {
+    margin-left: 20px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.divbotao {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

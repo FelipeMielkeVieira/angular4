@@ -4,8 +4,12 @@ import { GerenciarProdutosComponent } from './gerenciar-produtos/gerenciar-produ
 import { GerenciarClientesComponent } from './gerenciar-clientes/gerenciar-clientes.component';
 import {LojaModule} from '../loja/loja.module';
 
-import { RouterModule } from '@angular/router';
-import routes from './administrador.routes';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes: Routes = [
+  { path: 'gerenciar-produtos', component: GerenciarProdutosComponent},
+  { path: 'gerenciar-clientes', component: GerenciarClientesComponent},
+];
 
 @NgModule({
   imports: [
@@ -14,6 +18,6 @@ import routes from './administrador.routes';
     LojaModule
   ],
   declarations: [GerenciarProdutosComponent, GerenciarClientesComponent],
-  exports: [GerenciarProdutosComponent]
+  exports: [GerenciarProdutosComponent, GerenciarClientesComponent]
 })
 export class AdministradorModule { }

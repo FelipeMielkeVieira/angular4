@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import {AdministradorModule} from './administrador/administrador.module';
 import {LojaModule} from './loja/loja.module';
 import {ClienteModule} from './cliente/cliente.module';
+import { Router, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AdministradorModule,
     LojaModule,
-    ClienteModule
+    ClienteModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
