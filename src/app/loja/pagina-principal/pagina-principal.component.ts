@@ -14,15 +14,15 @@ export class PaginaPrincipalComponent implements OnInit {
   }
 
   pgProdutos() {
-    this.router.navigate(['/produto/']);
+    this.router.navigate(['/loja/produto/']);
   }
 
   pgClientes() {
-    this.router.navigate(['/gerenciar-clientes'])
+    this.router.navigate(['/loja/gerenciar-clientes'])
   }
 
   pgLogin() {
-    this.router.navigate(['/login'])
+    this.router.navigate(['/loja/login'])
   }
 
 }

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { GerenciarProdutosComponent } from './gerenciar-produtos/gerenciar-produtos.component';
 import { GerenciarClientesComponent } from './gerenciar-clientes/gerenciar-clientes.component';
-import {LojaModule} from '../loja/loja.module';
+import { LojaModule } from '../loja/loja.module';
 
 import { RouterModule, Routes } from '@angular/router';
 

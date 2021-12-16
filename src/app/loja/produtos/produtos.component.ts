@@ -20,7 +20,7 @@ export class ProdutosComponent implements OnInit {
   }
 
   abrirProduto(produto) {
-    this.router.navigate(['/produto/', produto])
+    this.router.navigate(['/loja/produto/', produto])
   }
 
   voltar() {
