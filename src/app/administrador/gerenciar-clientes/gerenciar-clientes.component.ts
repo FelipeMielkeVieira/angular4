@@ -14,7 +14,7 @@ export class GerenciarClientesComponent implements OnInit {
   }
 
   voltar() {
-    this.router.navigate(['']);
+    this.router.navigate(['/loja/']);
   }
 
 }

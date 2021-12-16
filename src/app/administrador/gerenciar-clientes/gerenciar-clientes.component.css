@@ -9,3 +9,17 @@
     transition: all 0.5s;
     color: red;
 }
+
+.logout {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: seashell;
+}
+
+.logout:hover {
+    cursor: pointer;
+}

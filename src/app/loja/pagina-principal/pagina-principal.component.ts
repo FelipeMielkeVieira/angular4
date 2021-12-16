@@ -18,11 +18,16 @@ export class PaginaPrincipalComponent implements OnInit {
   }
 
   pgClientes() {
-    this.router.navigate(['/loja/gerenciar-clientes'])
+    this.router.navigate(['/gerenciar-clientes'])
   }
 
   pgLogin() {
-    this.router.navigate(['/loja/login'])
+    this.router.navigate(['/login'])
+  }
+
+  logout() {
+    localStorage.removeItem('USER');
+    this.router.navigate([''])
   }
 
 }

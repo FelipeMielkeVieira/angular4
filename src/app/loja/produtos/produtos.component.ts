@@ -24,7 +24,7 @@ export class ProdutosComponent implements OnInit {
   }
 
   voltar() {
-    this.router.navigate(['']);
+    this.router.navigate(['/loja/']);
   }
 
 }

@@ -16,8 +16,8 @@ export class MainComponent implements OnInit {
   }
 
   logar() {
-    localStorage.setItem('USER', this.user);
     this.router.navigate(['/loja/']);
+    localStorage.setItem('USER', this.user);
   }
 
 }
